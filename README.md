@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# BookManagerApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+BookManagerApp is a React application that allows users to manage a collection of books. The app supports CRUD (Create, Read, Update, Delete) operations on book data. It uses Axios for making HTTP requests to a JSON server.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Add Book**: Add a new book to the collection.
+- **View Book Details**: View detailed information about a specific book.
+- **Update Book**: Update the details of an existing book.
+- **Delete Book**: Remove a book from the collection.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/BookManagerApp.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Navigate to the project directory:
+  cd BookManagerApp
 
-### `npm test`
+3. Install the dependencies:
+  npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Start the JSON server:
+   Type this in cmd: json-server --watch db.json --port 3001
 
-### `npm run build`
+5. In a new terminal, run the React application:
+   npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The application uses a JSON server to handle API requests. The backend server should be running on http://localhost:3001 and support the following endpoints:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+GET /books: Fetch all books.
+POST /books: Add a new book.
+DELETE /books/:id: Delete a book by ID.
+PUT /books/:id: Update a book by ID.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The JSON server is configured using a db.json file which contains the initial data for the books.
 
-### `npm run eject`
+# Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Add a Book
+  1. Fill in the book details in the input form.
+  2. Click the "Add Data" button to add the book to the collection.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# View Book Details
+  1. Click on a book in the list to view its details.
+  2. Detailed information will be displayed in a separate view.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Update a Book
+  1. Click the "View" button on a book to open the update modal.
+  2. Modify the book details in the modal.
+  3. Click the "Update" button to save changes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Delete a Book
+  1. Click the "Delete" button on a book to remove it from the collection.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Acknowledgements
+  React
+  Axios
+  JSON Server
+   
