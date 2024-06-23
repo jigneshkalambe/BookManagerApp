@@ -31,35 +31,6 @@ const CardDetails = () => {
     // console.log(newFilter);
 
     return (
-        // <div className="container my-5">
-        //     <div className="card  shadow-lg ">
-        //         <div className="card-header bg-dark text-white">
-        //             <h2 className="card-title text-center p-1  m-0">Book Details</h2>
-        //         </div>
-        //         <div className="card-body">
-        //             <h5 className="card-text">
-        //                 <strong>Book ID:</strong> {book_id}
-        //             </h5>
-        //             <h5 className="card-text">
-        //                 <strong>Title:</strong> {title}
-        //             </h5>
-        //             <h5 className="card-text">
-        //                 <strong>Author:</strong> {author}
-        //             </h5>
-        //             <h5 className="card-text">
-        //                 <strong>Genre:</strong> {genre}
-        //             </h5>
-        //             <h5 className="card-text">
-        //                 <strong>Published Year:</strong> {published_year}
-        //             </h5>
-        //         </div>
-        //         <div className="card-footer">
-        //             <button className="btn btn-secondary" onClick={() => window.history.back()}>
-        //                 Go Back
-        //             </button>
-        //         </div>
-        //     </div>
-        // </div>
         <div className="details-container">
             <div className="details-card">
                 <div className="details-image">

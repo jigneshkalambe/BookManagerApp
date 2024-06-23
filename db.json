@@ -1,7 +1,7 @@
 {
   "books": [
     {
-      "book_id": 101,
+      "book_id": "101",
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
       "genre": "Fiction",
@@ -151,22 +151,6 @@
       "genre": "Fantasy",
       "published_year": 1954,
       "id": "127k"
-    },
-    {
-      "id": "87c6",
-      "book_id": "120",
-      "title": "Jignesh the biggest Dumb ",
-      "author": "Jignesh ",
-      "genre": "Retard ",
-      "published_year": "since birth ig XD"
-    },
-    {
-      "id": "a8ef",
-      "book_id": "rhk3uw",
-      "title": "jignesh",
-      "author": "jhekwjhf",
-      "genre": "kjnkjkjewfj",
-      "published_year": "bjkb"
     }
   ]
 }

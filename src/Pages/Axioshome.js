@@ -12,17 +12,6 @@ const Axioshome = () => {
         published_year: "",
     });
     const [tempIND, setTempInd] = useState(0);
-    // useEffect(() => {
-    //     axios
-    //         .get(`http://localhost:3001/books`)
-    //         .then((res) => {
-    //             // console.log(res);
-    //             setApidata(res.data);
-    //         })
-    //         .catch((err) => {
-    //             console.log(err);
-    //         });
-    // }, [APIDATA]);
 
     useEffect(() => {
         getApi();
@@ -78,10 +67,8 @@ const Axioshome = () => {
             .put(`http://localhost:3001/books/${inputData.id}`, inputData)
             .then((res) => {
                 console.log(res);
-                // setApidata([...APIDATA, res.data]);
             })
             .catch((err) => console.log(err));
-        // setinputData({ book_id: "", title: "", author: "", genre: "", published_year: "", id: "" });
     };
 
     return (
