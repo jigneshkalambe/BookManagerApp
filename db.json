@@ -1,0 +1,172 @@
+{
+  "books": [
+    {
+      "book_id": 101,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Fiction",
+      "published_year": 1925,
+      "id": "430d"
+    },
+    {
+      "book_id": 102,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "published_year": "1960 5",
+      "id": "0f72"
+    },
+    {
+      "book_id": 103,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "published_year": 1949,
+      "id": "3f6d"
+    },
+    {
+      "book_id": 104,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Fiction",
+      "published_year": 1951,
+      "id": "24ea"
+    },
+    {
+      "book_id": 105,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "published_year": 1937,
+      "id": "090f"
+    },
+    {
+      "book_id": 106,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "published_year": 1813,
+      "id": "ea05"
+    },
+    {
+      "book_id": 107,
+      "title": "The Diary of a Young Girl",
+      "author": "Anne Frank",
+      "genre": "Biography",
+      "published_year": 1947,
+      "id": "6d8f"
+    },
+    {
+      "book_id": 108,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "genre": "Adventure",
+      "published_year": 1851,
+      "id": "7fe2"
+    },
+    {
+      "book_id": 109,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "genre": "Historical Fiction",
+      "published_year": 1869,
+      "id": "125a"
+    },
+    {
+      "book_id": 110,
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Philosophical Fiction",
+      "published_year": 1880,
+      "id": "238b"
+    },
+    {
+      "book_id": 111,
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Psychological Fiction",
+      "published_year": 1866,
+      "id": "349c"
+    },
+    {
+      "book_id": 112,
+      "title": "The Grapes of Wrath",
+      "author": "John Steinbeck",
+      "genre": "Fiction",
+      "published_year": 1939,
+      "id": "450d"
+    },
+    {
+      "book_id": 113,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Adventure",
+      "published_year": 1988,
+      "id": "561e"
+    },
+    {
+      "book_id": 114,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": "Dystopian",
+      "published_year": 1932,
+      "id": "672f"
+    },
+    {
+      "book_id": 115,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "genre": "Post-apocalyptic",
+      "published_year": 2006,
+      "id": "783g"
+    },
+    {
+      "book_id": 116,
+      "title": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "genre": "Dystopian",
+      "published_year": 1985,
+      "id": "894h"
+    },
+    {
+      "book_id": 117,
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel Garcia Marquez",
+      "genre": "Magic Realism",
+      "published_year": 1967,
+      "id": "905i"
+    },
+    {
+      "book_id": 118,
+      "title": "The Catch-22",
+      "author": "Joseph Heller",
+      "genre": "Satire",
+      "published_year": 1961,
+      "id": "016j"
+    },
+    {
+      "book_id": 119,
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "published_year": 1954,
+      "id": "127k"
+    },
+    {
+      "id": "87c6",
+      "book_id": "120",
+      "title": "Jignesh the biggest Dumb ",
+      "author": "Jignesh ",
+      "genre": "Retard ",
+      "published_year": "since birth ig XD"
+    },
+    {
+      "id": "a8ef",
+      "book_id": "rhk3uw",
+      "title": "jignesh",
+      "author": "jhekwjhf",
+      "genre": "kjnkjkjewfj",
+      "published_year": "bjkb"
+    }
+  ]
+}
